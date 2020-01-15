@@ -6,6 +6,9 @@ import App from './App';
 import 'bootstrap/dist/css/bootstrap.css';
 
 ReactDOM.render(
+// wrapping Router around App, so that the entire application can inherit Router's properties.
+
 <Router>
     <App />
-</Router>, document.getElementById('root'));
+</Router>
+, document.getElementById('root'));
